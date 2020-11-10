@@ -36,6 +36,12 @@ textarea {
     left: 32%;
 }
 
+.fire {
+    position: absolute;
+    top: 75%;
+    left: 63%;
+}
+
 .earthtext {
     color: #baf7b9;
     font-weight: bold;
@@ -47,6 +53,7 @@ textarea {
     font-weight: bold;
     font-size: 25px;
 }
+
 .linktext {
     color: #060641;
     font-weight: bold;
