@@ -21,9 +21,32 @@ textarea {
 .water {
     position: absolute;
     top: 13%;
-    left: 60%;
+    left: 63%;
 }
 
+.earth {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+}
+
+.air {
+    position: absolute;
+    top: 13%;
+    left: 32%;
+}
+
+.earthtext {
+    color: #baf7b9;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.airtext {
+    color: #4c4c48;
+    font-weight: bold;
+    font-size: 25px;
+}
 .linktext {
     color: #060641;
     font-weight: bold;
