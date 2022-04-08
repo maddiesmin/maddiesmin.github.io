@@ -1,7 +1,8 @@
+
 /* https://blog.hubspot.com/website/css-loading-animation */
 
 .headloader {
-    border: 20px solid #a2fab8;
+    border: 20px solid #73d18a;
     border-radius: 50%;
     border-top: 20px solid #3d7742;
     position: absolute;
@@ -213,7 +214,6 @@
   }
 
   .flower-spinner {
-    color: official;
     position: absolute;
     left: 580px;
     top: 110px;
@@ -234,7 +234,7 @@
     width: 10px;
     height: 30px;
     border-radius: 20%;
-    background: #edfc1e;
+    background: rgb(102, 142, 250);
   }
   .flower-spinner div:nth-child(1) {
     transform: rotate(0deg);
@@ -489,3 +489,49 @@
       transform: translate(24px, 0);
     }
   }
+
+/* codepen.io/t_afif/pen/ExWPNKB */
+
+.infinity-1 {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  background: repeating-linear-gradient(90deg, #73d18a 0 calc(25% - 5px), #3d7742 0 25%) left/calc(4*100%/3) 100%;
+  animation:i1 0.5s infinite linear;
+}
+@keyframes i1 {
+    100% {background-position: right}
+}
+
+.infinity-8 {
+  position: absolute;
+  width:30px;
+  height:250px;
+  transform:rotate(0.25turn);
+  background: 
+    linear-gradient(90deg ,rgb(226, 237, 253) 50%,rgb(102, 142, 250) 0) 0 0%,
+    linear-gradient(-90deg,rgb(226, 237, 253) 50%,rgb(102, 142, 250) 0) 0 50%,
+    linear-gradient(90deg ,rgb(226, 237, 253) 50%,rgb(102, 142, 250) 0) 0 100%;
+  background-size: 8px calc(100%/3);
+  background-repeat: repeat-x;
+  animation:i8 .25s infinite linear;
+}
+@keyframes i8 {
+    100% {background-position: -8px 0%,-8px 50%,-8px 100%}
+}
+
+.infinity-10 {
+  position: absolute;
+  width: 300px;
+  height: 20px;
+  background: 
+    linear-gradient( 90deg,#73d18a 50%,#3d7742 0) 0 0%,
+    linear-gradient(-90deg, #73d18a 50%,#3d7742 0) 0 0%;
+  background-size: 20px 100%;
+  background-repeat: repeat-x;
+  animation:i10 1s infinite linear;
+}
+@keyframes i10 {
+    100% {background-position: -20px 0%,20px 0%}
+}
+
