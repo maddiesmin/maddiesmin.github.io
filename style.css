@@ -507,7 +507,7 @@
   position: absolute;
   width:30px;
   height:250px;
-  transform:rotate(0.25turn);
+  transform:rotate(0.75turn);
   background: 
     linear-gradient(90deg ,rgb(226, 237, 253) 50%,rgb(102, 142, 250) 0) 0 0%,
     linear-gradient(-90deg,rgb(226, 237, 253) 50%,rgb(102, 142, 250) 0) 0 50%,
