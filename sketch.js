@@ -24,7 +24,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1000, 800);
+  createCanvas(1400, 700);
   hc = select("#myCanvas")
   hc.hide()
   background(255);
