@@ -1,4 +1,4 @@
-# maddiesmin.github.io
+# Final Project for MAAD practice at maddiesmin.github.io
 
 This p5 sketch uses Hydra and Google Teachable Machine to create visual effects based on audio input.
 
