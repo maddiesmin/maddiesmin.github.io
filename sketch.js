@@ -84,7 +84,8 @@ function gotResult(error, results) {
     }
   }
   else{
-    osc(10, 0.1, 3).hue().modulate(noise(4)).out()
+    background(255);
+    osc(10, 0.1, 3).hue().modulate(noise(4)).out();
   }
 }
 
