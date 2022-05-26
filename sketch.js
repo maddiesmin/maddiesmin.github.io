@@ -56,7 +56,6 @@ function gotResult(error, results) {
     return;
   }
   // The results are in an array ordered by confidence.
-  console.log(results[0]);
   label = results[0].label;
   
   if(label == "clap"){
